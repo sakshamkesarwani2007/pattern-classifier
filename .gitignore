@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+
+# regenerate with: python generate_data.py
+data/synthetic/
+
+# regenerate with: python train.py --model <cnn|resnet>
+checkpoints/
+
+# duplicates of data/real/real*.png
+/real*.png
+/Screenshot*
